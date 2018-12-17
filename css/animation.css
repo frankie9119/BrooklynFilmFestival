@@ -1,4 +1,4 @@
-@media only screen and (min-width: 640px){
+
 .text-box{
   
   padding-top: 190px;
@@ -47,5 +47,4 @@
     transform: scale(1); 
     -webkit-transform: scale(1);
   }
-}
 }
