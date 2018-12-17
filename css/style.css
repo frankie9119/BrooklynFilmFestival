@@ -38,7 +38,9 @@
   text-transform: uppercase;
   animation-en
 }
-
+.marketing{
+  padding-top: 10px;
+}
 
 /* Style the button used to pause/play the video */
 #myBtn {

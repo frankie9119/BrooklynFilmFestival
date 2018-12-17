@@ -23,21 +23,24 @@ function myFunction() {
 
 
 
-var today = new Date ();
-var hourNow = today.getHours();
-var greeting;
+var slideIndex = 1;
+showDivs(slideIndex);
 
-if (hour > 18) {
-    greeting = 'Good evening!';
-} else if (hourNow > 12) {
-    greeting = 'Good afternoon!';
-} else if (hourNow > 0) {
-    greeting = 'good morning!';
-} else {
-    greeting = 'Welcome to Brooklyn Film Festival!'
+function plusDivs(n) {
+  showDivs(slideIndex += n);
 }
 
-document.write('<h3>' + greeting + '</h3>');
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
 
 
 	
