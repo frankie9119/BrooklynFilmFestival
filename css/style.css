@@ -1,0 +1,202 @@
+      body {
+      	font-family: 'Open Sans', Sans-serif;
+
+      }
+
+
+/* Style the video: 100% width and height to cover the entire window */
+.cover-container {
+  position: relative;
+}
+#myVideo {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  max-width: 600px;
+  z-index:0;
+}
+
+/* Add some content at the bottom of the video/page */
+.text {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+   min-width: 100%; 
+  min-height: 100%;
+  max-width: 600px;
+}
+
+  
+#head{
+  font-family: 'Changa One', sans-serif;
+  letter-spacing: 15px;
+  font-size: 45px;
+  text-decoration: underline overline;
+  text-transform: uppercase;
+  animation-en
+}
+
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
+ 
+
+    /* custom primary buttons */
+    
+    .btn-primary {
+        
+        background-color: #ff5353;
+        border-color: #ff5353
+    }
+    
+    .btn-primary:hover {
+        
+        background-color: #dd3131;
+        border-color: #dd3131
+    }
+    
+    .btn-primary:focus,
+    .btn-primary.focus {
+        box-shadow: 0 0 0 .2rem rgba(145, 32, 32, 0.5)
+    }
+    
+    .btn-primary.disabled,
+    .btn-primary:disabled {
+        color: #212529;
+        background-color: #dd3131;
+        border-color: #dd3131
+    }
+    
+    .btn-primary:not(:disabled):not(.disabled):active,
+    .btn-primary:not(:disabled):not(.disabled).active,
+    .show>.btn-primary.dropdown-toggle {
+        color: #ffffff;
+        background-color: #dd3131;
+        border-color: #dd3131
+    }
+    
+    .btn-primary:not(:disabled):not(.disabled):active:focus,
+    .btn-primary:not(:disabled):not(.disabled).active:focus,
+    .show>.btn-primary.dropdown-toggle:focus {
+        box-shadow: 0 0 0 .2rem rgba(145, 32, 32, 0.5)
+    }
+
+    .btn-primary:active:focus {
+  color: #ffffff; 
+  background-color: #161617; 
+  border-color: #494F57;
+}
+
+
+    .btn-default:hover {
+        
+        background-color: #dd3131;
+        border-color: #dd3131
+    }
+      .b {
+
+      	text-align: center;
+      }
+    .socialnav{
+      padding-right: 5px;
+      padding-left: 5px;
+    }
+
+
+      /* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+
+}
+
+
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+.p2 .social {
+  text-align: left;
+}
+#news{
+  text-align: left;
+}
+
+.contanierfooter{
+  padding-top: 20px;
+}
+
+
+
+
+/* Video */
+@media only screen and (min-width: 640px) {
+.dimension {
+  position: relative;
+transition-duration: 1s;
+-ms-transition-duration: 1s;
+-webkit-transition-duration: 1s;
+-moz-transition-duration: 1s;
+-o-transition-duration: 1s;
+transition-property: transform;
+-ms-transition-property: -ms-transform;
+-webkit-transition-property: -webkit-transform;
+-moz-transition-property: -moz-transform;
+-o-transition-property: -o-transform;
+overflow:hidden;
+} 
+.dimension:hover {
+-ms-transform: scale(2,2);
+-webkit-transform: scale(2,2);
+-moz-transform: scale(2,2);
+-o-transform: scale(2,2);
+position: relative;
+}
+#video1{
+  width: 625px;
+  height: 400px;
+  
+
+}
+
+}
+
+
+
+
+
+
+
