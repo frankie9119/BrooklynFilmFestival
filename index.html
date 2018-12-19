@@ -1,27 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-        <meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Film Festival">
     
     <title>Film Festival</title>
     
-   <link rel="icon" href="img/logo.jpg">
-   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
-
+    <link rel="icon" href="img/logo.jpg">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 
 
-    <!-- Latest compiled and minified CSS -->
+    <!-- CSS -->
  
-  
     <link rel="stylesheet" href="css/style.css">
-    <link href="css/carousel.css" rel="stylesheet">
     <link href="css/animation.css" rel="stylesheet" >
  
 
@@ -29,225 +25,180 @@
 
     <body id="page-top" data-spy="scroll" data-target=".navbar">
 
-    <header>
+      <header>
 
       <!-- Navigation
       ================================================== -->
-      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#page-top">Brooklyn Film Festival</a>
-          </div>
-          <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-              <li class="hidden"><a href="#page-top"></a></li>
-              <li><a href="#page-top">Home</a></li>
-              <li><a href="#info">Info Festival</a></li>
-              <li><a href="#films">Films</a></li>
-              <li><a href="#pre-register">Pre-Registration</a></li>
-              <li><a class="nav-link px-3" href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-              <li><a class="nav-link px-3" href="https://twitter.com"><i class="fa fa-twitter"></i></a></li>
-              <li><a class="nav-link px-3" href="https://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>   
+          <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">Brooklyn Film Festival</a>
+              </div>
+              <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                  <li class="hidden"><a href="#page-top"></a></li>
+                  <li><a href="#page-top">Home</a></li>
+                  <li><a href="#info">Info Festival</a></li>
+                  <li><a href="#films">Films</a></li>
+                  <li><a href="#pre-register">Pre-Registration</a></li>
+                  <li><a class="nav-link px-3" href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                  <li><a class="nav-link px-3" href="https://twitter.com"><i class="fa fa-twitter"></i></a></li>
+                  <li><a class="nav-link px-3" href="https://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>   
+      </header>
 
-    </header>
-
-
-
-
-
-    <!-- /.carousel -->
 <!-- The video -->
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-<video autoplay muted loop id="myVideo">
-  <source src="video/Brooklyn.mp4" type="video/mp4">
-</video>
-
-<div  class="text">
-              <div class="text-box">
-              <h1 id="head">Brooklyn Film Festival</h1>
-              <p id="head2">Come to visit us, we are under the Brooklyn Bridge.</p> 
-              <p id="head3">August the 5th - 6th - 7th and 8th.</p>
-              <p><a class="btn btn-lg btn-primary" href="#pre-register" role="button" data-toggle="popover" data-content="It's simple to do!" title="It's free!">Pre-Register</a></p>
-            </div>
-          </div>
+  <video autoplay muted loop id="myVideo">
+    <source src="video/Brooklyn.mp4" type="video/mp4">
+  </video>
+    <div  class="text">
+      <div class="text-box">
+        <h1 id="head">Brooklyn Film Festival</h1>
+        <p id="head2">Come to visit us, we are under the Brooklyn Bridge.</p> 
+        <p id="head3">August the 5th - 6th - 7th and 8th.</p>
+        <p><a class="btn btn-lg btn-primary" href="#pre-register" role="button" data-toggle="popover" data-content="It's simple to do!" title="It's free!">Pre-Register</a></p>
+      </div>
+    </div>
 </div>
 
-    <!-- /.carousel -->
+    <!-- ROWS -->
 
-    <div class="container marketing" id="info">
+<!-- Row 1 -->
+  <section class="row" id="info">
 
-      <!-- Three columns of text below the carousel -->
-      <div class="row" id="News">
-        <div class="col-lg-4 col-md-3 col-sm-3">
-          <img class="img-circle" src="img/bridge.jpg" alt="Generic placeholder image" width="180" height="180">
-         <h2>The Festival</h2>
-          <p>Brooklyn Outdoor Film Festival has finally got approuved from the Brooklyn's comunity. We are working to build a maxi screen for you! We are at the <b>Brooklyn Bridge Park,</b> from <b>August the 5th to August the 8th,</b> every night from <b>6pm to Midnight.</b> The festival is <b>Open</b> and <b>Free</b> to Everyone. We are expetting over 5,000 people so do not forget to <b>pre-register!</b></p>
-              <b>Find out more on our Socials</b><br>
+    <div class="col-lg-7 col-md-7 col-sm-7">
+      <div>
+        <img  src="img/home_1.png" style="width:100%">
+      </div>
+    </div>
+
+    <div class="first_right col-lg-5 col-md-5 col-sm-5">
+      
+      <h2 class="festival">The Festival</h2><br><br>
+      <p>We are at the <b>Brooklyn Bridge Park,</b> from <b>August the 5th to August the 8th,</b> every night from <b>6pm to Midnight.</b> The festival is <b>Open</b> and <b>Free</b> to Everyone. We are expetting over 5,000 people so do not forget to <b>pre-register!</b></p><br><br>
+      <b class="social_1">Find out more on our Socials</b><br>
              
       <a class="btn btn-default" href="https://twitter.com/"><i class="fa fa-twitter fa-2x"></i></a>
       <a class="btn btn-default" href="https://www.facebook.com/"><i class="fa fa-facebook fa-2x"></i></a>
       <a class="btn btn-default" href="https://www.instagram.com"><i class="fa fa-instagram fa-2x"></i></a>
+    </div>
+  </section>
 
-</div><!-- /.col-lg-4 -->
+    <!-- Row 2 -->
 
-        <div class="col-lg-4 col-md-6 col-sm-6">
-          
-          <video class="dimension" width="320" height="240" controls="controls">
-            <source src="video/1080p.mp4" type="video/mp4">
-            <source src="video/1080p.ogg" type="video/ogg">
-            Your browser does not support the video tag.
-          </video>
+  <section class="row" id="films" class="container-fluid d-flex justify-content-center align-items-center flex-column">
+  
+    <div class=" col-lg-5 col-md-5 col-sm-5 row d-flex flex-column flex-md-row align-items-center flex-nowrap">
+      <h2 class="films">Films </h2><h2><span class="text-muted">Come to see us</span></h2>
+      <p><b>Thursday the 5th:</b>"Dunkirk - Christopher Nolan"</p>
+      <p><b>Friday the 6th:</b>"BREACH - LORENZO MONTI"</p>
+      <p><b>Saturday the 7th:</b> "BREACH - LORENZO MONTI"</p>
+      <p><b>Sunday the 8th:</b> "BREACH - LORENZO MONTI"</p>
+      <p><a class="btn btn-lg btn-primary" id="register_btn_2row" href="#pre-register" role="button">Pre-Register Here!</a></p>
+    </div>
 
-          <h2>Festival News</h2>
-          <h4>Tonight, Thursday the 5th: <b>"The Avengers"</b></h4>
-            <p class="p2">
-            Don't miss this out, come to see us tonight from 
-            <b>6pm</b> to
-            <b>midnight.</b> We are waiting for you!
-            <p><a class="btn btn-lg btn-primary" href="#pre-register" role="button">Pre-Register Here!</a></p>
-          
-        </div><!-- /.col-lg-4 -->
+    <div class="first_right col-lg-7 col-md-7 col-sm-7">
+      <div class="w3-content w3-display-container">
+        <img class="mySlides" src="img/dunkirk.jpg" style="width:100%">
+        <img class="mySlides" src="img/dunkirk2.jpg" style="width:100%">
+        <img class="mySlides" src="img/marvel.jpg" style="width:100%">
+        <img class="mySlides" src="img/avengers.jpg" style="width:100%">
 
-        <div class="col-lg-4 col-md-3 col-sm-3">
-          <img class="img-circle" src="img/BrooklynCommunity.jpg" alt="Generic placeholder image" width="180" height="180">
-          <h2>Brooklyn's News</h2>
-          <p>Do not miss out news about the Brooklyn Bridge Park and Brooklyn! Brooklyn Bridge Park is an 85-acre post-industrial waterfront site stretching 1.3 miles along Brooklyn’s East River edge. The site spans from Jay Street, north of the Manhattan Bridge, to Pier 6 and Atlantic Avenue in the south. The site is long and narrow with a crenulated edge formed by its reclaimed piers.</p>
-          <p><a class="btn btn-default" href="http://brooklyn.news12.com/" role="button">Brooklyn News</a></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+      </div>
+    </div>
 
-      <!-- START THE FEATURETTES -->
-      <hr class="featurette-divider" id="films">
-      <div class="row featurette">
-        <div class="col-md-5">
-          <h2 class="featurette-heading">Films - Thursday & Friday <span class="text-muted">Watch the Trailer!</span></h2>
-          <p class="lead"><b>Thursday the 5th:<br></b> At <b>6pm:</b> "Dunkirk - Christopher Nolan"<br>
-            At <b>10pm:</b> "NOSOTROS - FELIPE VARA DE REY"<br><br>
-          <b>Friday the 6th:<br></b> At <b>6pm:</b> "BREACH - LORENZO MONTI"<br>
-            At <b>10pm:</b> "Dunkirk - Christopher Nolan"
-        </div>
+  </section>
+
+    <!-- Row 3 -->
+  <section class="row" id="trailer">
+    <div class="trailer_text col-lg-12 col-md-12 col-sm-12">
+      <h2>Watch the trailer! <span class="text-muted">Don't forget to</span></h2>
+      <p><a class="btn btn-lg btn-primary" id="register_btn_2row" href="#pre-register" role="button">Pre-Register Here!</a></p>
+    </div>
+  </section>
 
 
-        <div class="col-md-7">
-                <div id="videoPanel">
-                     <video id="video1" src="video/Dunkirk.mp4" width="320" height="240" controls="controls"></video>
+  <!-- Row 4 -->
+  <section class="row" id="info">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+      <div class="d-flex w-100 h-100 p-3 mx-auto flex-column align-items-center">
+        <video id="video1" src="video/Dunkirk.mp4"  controls="controls" style="width: 100%"></video>        
+      </div>
+    </div>
+  </section>
+
+<!-- END OF ROWS -->
+
+
+<!-- Registration form -->
+  <div class="container" id="pre-register">
+    <div class="row featurette">
+      <div class="col-md-5">
+        <h2 class="featurette-heading">Pre-register Here <span class="text-muted">It is FREE !</span></h2>
+        <p>Pre-register</p>
+      </div>
+      <div class="col-md-7">
+        <form>
+          <div class="form-group">
+            <label for="FormControlInput1">Name</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Johanna Smith">
+          </div>
+            <div class="form-group">
+              <label for="FormControlInput2">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Johanna@Smith.com">
+            </div>
+              <div class="form-group">
+                <label for="exampleFormControlSelect1">Day</label>
+                  <select class="form-control" id="exampleFormControlSelect2">
+                    <option>August 5th Thursday</option>
+                    <option>August 6th Friday</option>
+                    <option>August 7th Saturday</option>
+                    <option>August 8th Sunday</option>
+                  </select>
+              </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect">Seats</label>
+                  <select class="form-control">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
                 </div>
-                
-            
-        </div>
-        </div>
-      </div>
-      
-
-<div class="container">
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Films - Saturday & Sunday <span class="text-muted">Watch the Trailer</span></h2>
-          <p class="lead"><b>Saturday the 7th:<br></b> At <b>6pm:</b> "BREACH - LORENZO MONTI"<br>
-            At <b>10pm:</b> "The Avengers - Marvel"<br><br>
-          <b>Sunday the 8th:<br></b> At <b>6pm:</b> "BREACH - LORENZO MONTI"<br>
-            At <b>10pm:</b> "The Avengers - Marvel"</p>
-        </div>
-
-        <div class="col-md-5 col-md-pull-7">
-
-
-          <div class="w3-content w3-display-container">
-  <img class="mySlides" src="img/dunkirk.jpg" style="width:100%">
-  <img class="mySlides" src="img/dunkirk2.jpg" style="width:100%">
-  <img class="mySlides" src="img/marvel.jpg" style="width:100%">
-  <img class="mySlides" src="img/avengers.jpg" style="width:100%">
-
-  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-</div>
-          
-        </div>
-      </div>
-
-</div>
-
-     <div class="container">
-      <hr class="featurette-divider" id="pre-register">
-      <div class="row featurette">
-        <div class="col-md-5">
-          <h2 class="featurette-heading">Pre-register Here <span class="text-muted">It is FREE !</span></h2>
-          <p>Pre-register</p>
-        </div>
-        <div class="col-md-7">
-          <form>
-  <div class="form-group">
-    <label for="FormControlInput1">Name</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Johanna Smith">
-  </div>
-  <div class="form-group">
-    <label for="FormControlInput2">Email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Johanna@Smith.com">
-  </div>
-    <div class="form-group">
-    <label for="exampleFormControlSelect1">Day</label>
-    <select class="form-control" id="exampleFormControlSelect2">
-      <option>August 5th Thursday</option>
-      <option>August 6th Friday</option>
-      <option>August 7th Saturday</option>
-      <option>August 8th Sunday</option>
-    </select>
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlSelect">Seats</label>
-    <select class="form-control">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
         </div>
       </div>
       </div>
     </div>
-     </div>
-
-
-      <!-- /END THE FEATURETTES -->
-
+  </div>
 
       <!-- FOOTER -->
-        <footer class="container">
-       
-     
-     
-    
-     <div class="container contanierfooter">
+  <footer class="container">
+    <div class="container contanierfooter">
       <p>&copy; 2018-2019 Company, Inc. &middot; <a href="#page-top">Back to top</a></p>
       <a class="btn btn-default" href="https://twitter.com/"><i class="fa fa-twitter fa-2x"></i></a>
       <a class="btn btn-default" href="https://www.facebook.com/"><i class="fa fa-facebook fa-2x"></i></a>
       <a class="btn btn-default" href="https://www.instagram.com"><i class="fa fa-instagram fa-2x"></i></a>
-    
-   
   </footer>
 
-    <!-- /.container -->
 
-
-    <!-- Bootstrap core JavaScript
+    <!-- JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="../../dist/js/bootstrap.min.js"></script>

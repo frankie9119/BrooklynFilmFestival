@@ -1,10 +1,39 @@
-      body {
-      	font-family: 'Open Sans', Sans-serif;
+body {
+  font-family: 'Open Sans', Sans-serif;
+}
 
-      }
+.row{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+}
 
+#films{
+  text-align: center;
+}
 
-/* Style the video: 100% width and height to cover the entire window */
+.w3-content{
+  max-width: 600px;
+  max-height: 400px;
+  padding-top: 20px;
+}
+
+.first_right{
+  padding-top: 20px;
+  text-align: center;
+}
+
+.festival, .films{
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  padding-bottom: 20px;
+  text-decoration: underline overline;
+}
+.social_1{
+  padding-top: 50px;
+}
+
+/* Main Video*/
 .cover-container {
   position: relative;
 }
@@ -18,13 +47,13 @@
   z-index:0;
 }
 
-/* Add some content at the bottom of the video/page */
+/* Style Main Video */
 .text {
   position: absolute;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
-   min-width: 100%; 
+  min-width: 100%; 
   min-height: 100%;
   max-width: 600px;
 }
@@ -38,9 +67,7 @@
   text-transform: uppercase;
   animation-en
 }
-.marketing{
-  padding-top: 10px;
-}
+
 
 
 /* Style the button used to pause/play the video */
@@ -58,8 +85,6 @@
   background: #ddd;
   color: black;
 }
-
- 
 
     /* custom primary buttons */
     
@@ -116,6 +141,7 @@
       .b {
 
       	text-align: center;
+
       }
     .socialnav{
       padding-right: 5px;
@@ -123,22 +149,17 @@
     }
 
 
-      /* CUSTOMIZE THE NAVBAR
+      /* NAVBAR
 -------------------------------------------------- */
 
-/* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
   position: absolute;
   top: 0;
   right: 0;
   left: 0;
   z-index: 20;
-
 }
 
-
-
-/* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper > .container {
   padding-right: 0;
   padding-left: 0;
@@ -149,13 +170,6 @@
 }
 .navbar-wrapper .navbar .container {
   width: auto;
-}
-
-.p2 .social {
-  text-align: left;
-}
-#news{
-  text-align: left;
 }
 
 .contanierfooter{
@@ -182,28 +196,20 @@ overflow:hidden;
 -o-transform: scale(2,2);
 position: relative;
 }
+
+
 #video1{
-  width: 625px;
-  height: 400px;
-  
-
+  max-width: 600px;
+  max-height: 400px;
 }
+/* Media query */
 
-/* Video */
 @media only screen and (min-width: 640px) {
   #head2, #head3{
     padding-top: 20px;
     font-size: 1.5rem;
   }
-
-
 }
-@media only screen and (min-device-width:351px){
-
-  #head2, #head3{
-    padding-top: 20px;
-    font-size: 1rem;
-  }
 
 @media only screen and (max-device-width:350px){
 
@@ -211,6 +217,8 @@ position: relative;
     padding-top: 20px;
     font-size: 1px;
   }
+
+
 
 
 
