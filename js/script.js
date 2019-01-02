@@ -18,11 +18,6 @@ function myFunction() {
 
 
 
-
-
-
-
-
 var slideIndex = 1;
 showDivs(slideIndex);
 
@@ -41,6 +36,18 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";  
 }
 
+
+
+// Validate the inputted email address via regex
+document.getElementById("emailAddress").addEventListener("blur", function (e) {
+    // matches an xx@yyy.zzz format
+    var emailRegex = /.+@.+\..+/;
+    var emailAddressValidity = "";
+    if (!emailRegex.test(e.target.value)) {
+        emailAddressValidity = "Invalid address";
+    }
+    document.getElementById("emailHelp").textContent = emailAddressValidity;
+});
 
 
 	

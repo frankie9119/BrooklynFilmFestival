@@ -47,25 +47,26 @@
                   <li><a href="#info">Info Festival</a></li>
                   <li><a href="#films">Films</a></li>
                   <li><a href="#pre-register">Pre-Registration</a></li>
-                  <li><a class="nav-link px-3" href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-                  <li><a class="nav-link px-3" href="https://twitter.com"><i class="fa fa-twitter"></i></a></li>
-                  <li><a class="nav-link px-3" href="https://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+                  <li><a class="nav-link px-3" href="https://www.facebook.com"><i class="fa fa-facebook "></i></a></li>
+                  <li><a class="nav-link px-3" href="https://twitter.com"><i class="fa fa-twitter "></i></a></li>
+                  <li><a class="nav-link px-3" href="https://www.instagram.com"><i class="fa fa-instagram "></i></a></li>
                 </ul>
               </div>
             </div>
           </div>   
       </header>
 
-<!-- The video -->
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <video autoplay muted loop id="myVideo">
-    <source src="video/Brooklyn.mp4" type="video/mp4">
-  </video>
+
+
+ <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <video autoplay muted loop id="myVideo" src="video/Brooklyn.mp4"></video> 
+
+
     <div  class="text">
       <div class="text-box">
         <h1 id="head">Brooklyn Film Festival</h1>
-        <p id="head2">Come to visit us, we are under the Brooklyn Bridge.</p> 
-        <p id="head3">August the 5th - 6th - 7th and 8th.</p>
+        <p id="head2" class="hidden-xs">Come to visit us, we are under the Brooklyn Bridge.</p> 
+        <p id="head3" class="hidden-xs">August the 5th - 6th - 7th and 8th.</p>
         <p><a class="btn btn-lg btn-primary" href="#pre-register" role="button" data-toggle="popover" data-content="It's simple to do!" title="It's free!">Pre-Register</a></p>
       </div>
     </div>
@@ -85,12 +86,12 @@
     <div class="first_right col-lg-5 col-md-5 col-sm-5">
       
       <h2 class="festival">The Festival</h2><br><br>
-      <p>We are at the <b>Brooklyn Bridge Park,</b> from <b>August the 5th to August the 8th,</b> every night from <b>6pm to Midnight.</b> The festival is <b>Open</b> and <b>Free</b> to Everyone. We are expetting over 5,000 people so do not forget to <b>pre-register!</b></p><br><br>
+      <p>We are at the <b><a href="https://www.brooklynbridgepark.org/" target="_blank"> Brooklyn Bridge Park,</a></b> from <b>August the 5th to August the 8th,</b> every night from <b>6pm to Midnight.</b> The festival is <b>Open</b> and <b>Free</b> to Everyone. We are expetting over 5,000 people so do not forget to <b>pre-register!</b></p><br><br>
       <b class="social_1">Find out more on our Socials</b><br>
              
-      <a class="btn btn-default" href="https://twitter.com/"><i class="fa fa-twitter fa-2x"></i></a>
-      <a class="btn btn-default" href="https://www.facebook.com/"><i class="fa fa-facebook fa-2x"></i></a>
-      <a class="btn btn-default" href="https://www.instagram.com"><i class="fa fa-instagram fa-2x"></i></a>
+      <a class="btn btn-default" href="https://twitter.com/"><i class="fa fa-twitter fa-2x bounce"></i></a>
+      <a class="btn btn-default" href="https://www.facebook.com/"><i class="fa fa-facebook fa-2x bounce" ></i></a>
+      <a class="btn btn-default" href="https://www.instagram.com"><i class="fa fa-instagram fa-2x bounce"></i></a>
     </div>
   </section>
 
@@ -104,7 +105,7 @@
       <p><b>Friday the 6th:</b>"BREACH - LORENZO MONTI"</p>
       <p><b>Saturday the 7th:</b> "BREACH - LORENZO MONTI"</p>
       <p><b>Sunday the 8th:</b> "BREACH - LORENZO MONTI"</p>
-      <p><a class="btn btn-lg btn-primary" id="register_btn_2row" href="#pre-register" role="button">Pre-Register Here!</a></p>
+      <p><a class="btn btn-lg btn-primary button-pulse" id="register_btn_2row" href="#pre-register" role="button">Pre-Register Here!</a></p>
     </div>
 
     <div class="first_right col-lg-7 col-md-7 col-sm-7">
@@ -129,8 +130,13 @@
       </div>
     </div>
     <div class="trailer_text col-lg-5 col-md-5 col-sm-5">
-      <h2>Watch the trailer! <span class="text-muted">Don't forget to</span></h2>
-      <p><a class="btn btn-lg btn-primary" id="register_btn_2row" href="#pre-register" role="button">Pre-Register Here!</a></p>
+      <h2>Watch the trailer!<span class="text-muted">Don't forget to pre-register</span></h2>
+        <div class="button" href="#pre-register">
+          <div class="pulse-button" href="#pre-register">
+              <a href="#pre-register"><h4 href="#pre-register">HERE!</h4></a>
+          </div>
+        </div>
+
     </div>
   </section>
 
@@ -141,18 +147,18 @@
   <div class="container" id="pre-register">
     <div class="row featurette">
       <div class="col-md-5">
-        <h2 class="featurette-heading">Pre-register Here <span class="text-muted">It is FREE !</span></h2>
-        <p>Pre-register</p>
+        <h2 class="featurette-heading register">Pre-register Here</h2><br><h2> <span class="text-muted">It is FREE !</span></h2>
+        <p>Pre-register here, you will receive a confirmation code via email</p>
       </div>
       <div class="col-md-7">
         <form>
           <div class="form-group">
-            <label for="FormControlInput1">Name</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Johanna Smith">
+            <label for="Input1">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Johanna Smith" required>
           </div>
             <div class="form-group">
-              <label for="FormControlInput2">Email address</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Johanna@Smith.com">
+              <label for="Input2">Email address</label>
+              <input type="email" class="form-control" id="emailAddress" placeholder="Johanna@Smith.com" required>
             </div>
               <div class="form-group">
                 <label for="exampleFormControlSelect1">Day</label>
@@ -182,12 +188,17 @@
   </div>
 
       <!-- FOOTER -->
-  <footer class="container">
-    <div class="container contanierfooter">
-      <p>&copy; 2018-2019 Company, Inc. &middot; <a href="#page-top">Back to top</a></p>
+  <footer class="row" id="footer">
+    <div class="col-lg-7 col-md-7 col-sm-7">
+      <div>
+        <p>&copy; 2018-2019 Company, Inc. &middot; <a href="#page-top">Back to top</a></p>
+      </div>
+    </div>
+    <div class="socialFooter col-lg-5 col-md-5 col-sm-5"> 
       <a class="btn btn-default" href="https://twitter.com/"><i class="fa fa-twitter fa-2x"></i></a>
       <a class="btn btn-default" href="https://www.facebook.com/"><i class="fa fa-facebook fa-2x"></i></a>
       <a class="btn btn-default" href="https://www.instagram.com"><i class="fa fa-instagram fa-2x"></i></a>
+    </div>
   </footer>
 
 
