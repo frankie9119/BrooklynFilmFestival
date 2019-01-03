@@ -1,13 +1,35 @@
 body{
   font-family: 'Open Sans', Sans-serif;
 }
+      /* NAVBAR
+-------------------------------------------------- */
 
- #head2, #head3{
 
-    padding-top: 20px;
-    font-size: 20px;
+.navbar {
+  background-color: transparent;
+  height: 30px;
+  border: none;
+}
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+  color: #fff;
+}
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
 
-  }
 
 .row{
   padding-left: 50px;
@@ -44,31 +66,17 @@ body{
 }
 
 /* Main Video*/
-.cover-container {
-  position: relative;
-  min-height: 300px;
-}
-#myVideo {
-  position: relative;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-  max-width: 600px;
 
- 
-}
 
 /* Style Main Video */
-.text {
-  position: absolute;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  min-width: 100%; 
-  min-height: 100%;
-  max-width: 600px;
-}
+
+
+
+
+
+
+
+
 
   
 #head{
@@ -78,8 +86,8 @@ body{
   letter-spacing: 15px;
   font-size: 45px;
   text-decoration: underline overline;
-  text-transform: uppercase;
-  animation-en;
+  
+  
 }
 
 
@@ -207,84 +215,6 @@ h4{
   padding-left: 18px;
 }
 
-      /* NAVBAR
--------------------------------------------------- */
-
-
-.navbar {
-  height: 40px;
-  background-color: transparent;
-  border: none;
-  color: white;
-  z-index: 100;
-  transition: background-color 1s ease 0s;
-      -webkit-transition: all 0.6s ease-out;
-    -moz-transition: all 0.6s ease-out;
-    -o-transition: all 0.6s ease-out;
-    -ms-transition: all 0.6s ease-out;
-    transition: all 0.6s ease-out;
-}
-
-
-
-  .home{
-        background-color: transparent;
-        color: #fff;
-      }
-
-
-/* Add the below transitions to allow a smooth color change similar to lyft */
-
-
-
-.navbar-wrapper {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 20;
-}
-
-.navbar-wrapper > .container {
-  padding-right: 0;
-  padding-left: 0;
-}
-.navbar-wrapper .navbar {
-  padding-right: 15px;
-  padding-left: 15px;
-}
-.navbar-wrapper .navbar .container {
-  width: auto;
-}
-
-
-.dimension {
-  position: relative;
-transition-duration: 1s;
--ms-transition-duration: 1s;
--webkit-transition-duration: 1s;
--moz-transition-duration: 1s;
--o-transition-duration: 1s;
-transition-property: transform;
--ms-transition-property: -ms-transform;
--webkit-transition-property: -webkit-transform;
--moz-transition-property: -moz-transform;
--o-transition-property: -o-transform;
-overflow:hidden;
-} 
-.dimension:hover {
--ms-transform: scale(2,2);
--webkit-transform: scale(2,2);
--moz-transform: scale(2,2);
--o-transform: scale(2,2);
-position: relative;
-}
-
-
-#video1{
-  max-width: 600px;
-  max-height: 400px;
-}
 
 #pre-register{
   padding-bottom: 30px;
