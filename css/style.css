@@ -36,23 +36,35 @@ body{
   padding-right: 50px;
   padding-top: 10px;
 }
-
+#info, #trailer, #brooklyn, #pre-register{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 #films{
+  padding-top: 30px;
+  padding-bottom: 30px;
   text-align: center;
 }
 
 .w3-content{
   max-width: 600px;
   max-height: 400px;
-  padding-top: 20px;
+ 
 }
 
+.brooklyn_img{
+ max-width: 600px;
+  max-height: 400px;
+  }
+  .brooklyn_txt{
+    padding-top: 10%;
+  }
 .first_right{
   padding-top: 20px;
   text-align: center;
 }
 
-.festival, .films, .register{
+.festival, .films, .register, .brooklyn{
   text-transform: uppercase;
   letter-spacing: 10px;
   padding-bottom: 20px;
@@ -70,7 +82,11 @@ body{
 
 /* Style Main Video */
 
-
+#films, #brooklyn{
+  background:#333;
+  color:#fff;
+  
+}
 
 
 
@@ -173,16 +189,16 @@ body{
 /* Pulse-Button */
 
 .button {
+  padding-left: 15%;
   width: 200px;
   height: 100%;
-color: #ffffff;
+  color: #ffffff;
   margin: 0 auto 0;
   -webkit-perspective: 1000;
   -webkit-backface-visibility: hidden;
   background: #fff;
 }
 .pulse-button {
-
   position: relative;
   width: 100px;
   height: 100px;
@@ -229,7 +245,8 @@ h4{
 #footer{
   padding-bottom: 30px;
   padding-top: 30px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background: #333;
+  color:#fff;
 }
 
 /* Media query */
