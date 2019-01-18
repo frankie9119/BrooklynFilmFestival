@@ -1,26 +1,16 @@
-
-
-
-
-// Get the video
-var video = document.getElementById("myVideo");
-
-// Get the button
-var btn = document.getElementById("myBtn");
-
-// Pause and play the video, and change the button text
-function myFunction() {
-  if (video.paused) {
-    video.play();
-    btn.innerHTML = "Pause";
-  } else {
-    video.pause();
-    btn.innerHTML = "Play";
+// Nav Bar scroll color change 
+$(document).scroll(function(){
+  var height = $(".navbar").height();
+  if( $(this).scrollTop() > 100){
+    $(".navbar").css("background-color","black");
+  }else{
+    $(".navbar").css("background-color","Transparent");
   }
-}
+});
 
-
-
+/*___________________________
+SLIDES - IMGS
+*/
 var slideIndex = 1;
 showDivs(slideIndex);
 
@@ -39,18 +29,20 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";  
 }
 
-
-
-// Validate the inputted email address via regex
-document.getElementById("emailAddress").addEventListener("blur", function (e) {
-    // matches an xx@yyy.zzz format
-    var emailRegex = /.+@.+\..+/;
-    var emailAddressValidity = "";
-    if (!emailRegex.test(e.target.value)) {
-        emailAddressValidity = "Invalid address";
-    }
-    document.getElementById("emailHelp").textContent = emailAddressValidity;
-});
-
-
-	
+/*________________________________
+VIDEO TRAILER
+*/
+// Get the video
+var video = document.getElementById("myVideo");
+// Get the button
+var btn = document.getElementById("myBtn");
+// Pause and play the video, and change the button text
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}

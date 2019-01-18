@@ -1,9 +1,6 @@
 body{
   font-family: 'Open Sans', Sans-serif;
 }
-      /* NAVBAR
--------------------------------------------------- */
-
 
 .navbar {
   background-color: transparent;
@@ -30,7 +27,6 @@ body{
   width: auto;
 }
 
-
 .row{
   padding-left: 50px;
   padding-right: 50px;
@@ -49,7 +45,6 @@ body{
 .w3-content{
   max-width: 600px;
   max-height: 400px;
- 
 }
 
 .brooklyn_img{
@@ -77,36 +72,19 @@ body{
   padding-top: 10%;
 }
 
-/* Main Video*/
-
-
 /* Style Main Video */
 
 #films, #brooklyn{
   background:#333;
   color:#fff;
-  
 }
 
-
-
-
-
-
-
-  
 #head{
-
-
   font-family: 'Changa One', sans-serif;
   letter-spacing: 15px;
   font-size: 45px;
   text-decoration: underline overline;
-  
-  
 }
-
-
 
 /* Style the button used to pause/play the video */
 #myBtn {
@@ -127,7 +105,6 @@ body{
     /* custom primary buttons */
     
     .btn-primary {
-        
         background-color: #ff5353;
         border-color: #ff5353
     }
@@ -140,46 +117,42 @@ body{
     
     .btn-primary:focus,
     .btn-primary.focus {
-        box-shadow: 0 0 0 .2rem rgba(145, 32, 32, 0.5)
+      box-shadow: 0 0 0 .2rem rgba(145, 32, 32, 0.5)
     }
     
     .btn-primary.disabled,
     .btn-primary:disabled {
-        color: #212529;
-        background-color: #dd3131;
-        border-color: #dd3131
+      color: #212529;
+      background-color: #dd3131;
+      border-color: #dd3131
     }
     
     .btn-primary:not(:disabled):not(.disabled):active,
     .btn-primary:not(:disabled):not(.disabled).active,
     .show>.btn-primary.dropdown-toggle {
-        color: #ffffff;
-        background-color: #dd3131;
-        border-color: #dd3131
+      color: #ffffff;
+      background-color: #dd3131;
+      border-color: #dd3131
     }
     
     .btn-primary:not(:disabled):not(.disabled):active:focus,
     .btn-primary:not(:disabled):not(.disabled).active:focus,
     .show>.btn-primary.dropdown-toggle:focus {
-        box-shadow: 0 0 0 .2rem rgba(145, 32, 32, 0.5)
+      box-shadow: 0 0 0 .2rem rgba(145, 32, 32, 0.5)
     }
 
     .btn-primary:active:focus {
-  color: #ffffff; 
-  background-color: #161617; 
-  border-color: #494F57;
-}
-
+      color: #ffffff; 
+      background-color: #161617; 
+      border-color: #494F57;
+    }
 
     .btn-default:hover {
-        
-        background-color: #dd3131;
-        border-color: #dd3131
+      background-color: #dd3131;
+      border-color: #dd3131
     }
       .b {
-
       	text-align: center;
-
       }
     .socialnav{
       padding-right: 5px;
@@ -231,7 +204,6 @@ h4{
   padding-left: 18px;
 }
 
-
 #pre-register{
   padding-bottom: 30px;
 }
@@ -251,10 +223,7 @@ h4{
 
 /* Media query */
 
-
 @media only screen and (max-device-width:765px){
-
-
     .socialFooter{
   text-align: center;
 }
@@ -262,12 +231,3 @@ h4{
   background-color: black;
 }
 }
-
-
-
-
-
-
-
-
-
